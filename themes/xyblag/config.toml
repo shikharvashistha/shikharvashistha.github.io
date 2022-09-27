@@ -1,0 +1,26 @@
+# The URL the site will be built for
+base_url = "https://yashrsharma44.github.io"
+
+compile_sass = true
+description = "xyblag is a minimal cutomizable theme for zola"
+generate_feed = true
+highlight_code = true
+title = "xyblag theme theme"
+
+# Notes Section details
+notes_description = "Space for my TIL Notes section"
+
+taxonomies = [
+  {name = "categories", rss = true},
+  {name = "tags", rss = true},
+]
+
+[extra]
+author = "xypnox"
+blog_menu = [
+  {url = "$BASE_URL", name = "Home"},
+  {url = "$BASE_URL/categories", name = "Categories"},
+  {url = "$BASE_URL/tags", name = "Tags"},
+  {url = "$BASE_URL/about", name = "About"},
+  {url = "$BASE_URL/notes", name = "Notes"},
+]
