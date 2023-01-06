@@ -27,4 +27,4 @@ Finally, mail works all the time, so feel free to approach me for a conversation
 
 ## My Resume
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vSOAViaIfJpkcostYhiz6pYzyFDBkRdQug0FYrKV98OuQpKymvf5ft-1FtdgYtD0w/pub?embedded=true" width="850" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/13u6Fhz_zaDBVT7O1fw0fPIg6gWDwgPJW/preview" width="850" height="480" allow="autoplay"></iframe>
