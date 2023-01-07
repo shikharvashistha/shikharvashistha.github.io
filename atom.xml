@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Shikhar Vashistha</title>
+	<subtitle>A space for pen up my thoughts and ideas</subtitle>
+	<link href="https://shikhar.vercel.app/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://shikhar.vercel.app/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-07-01T00:00:00+00:00</updated>
+	<id>https://shikhar.vercel.app/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Technology Trends</title>
+		<published>2023-07-01T00:00:00+00:00</published>
+		<updated>2023-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://shikhar.vercel.app/current/" type="text/html"/>
+		<id>https://shikhar.vercel.app/current/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;current.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    The current industry trends
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;&lt;h2 id=&quot;staying-current-in-the-tech-industry&quot;&gt;Staying Current in the Tech Industry&lt;&#x2F;h2&gt;
+&lt;p&gt;The tech industry is constantly evolving, and it can be challenging to stay up-to-date with all of the latest trends and developments. However, staying informed is crucial for anyone working in tech, and there are a few key ways to ensure that you are always current.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;continuous-learning&quot;&gt;Continuous Learning&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the most important ways to stay current is through continuous learning. This means taking the time to learn new skills, technologies, and best practices, and staying up-to-date with the latest trends and developments in your field. There are a variety of ways to do this, including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Attending conferences and workshops&lt;&#x2F;li&gt;
+&lt;li&gt;Reading industry publications&lt;&#x2F;li&gt;
+&lt;li&gt;Participating in online learning platforms&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;engaging-with-the-tech-community&quot;&gt;Engaging with the Tech Community&lt;&#x2F;h3&gt;
+&lt;p&gt;Staying engaged with the tech community is another important aspect of staying current. This means networking with other professionals, joining industry groups and organizations, and participating in online forums and discussion groups. These types of interactions can help you learn from others, share knowledge, and stay connected to the latest trends and developments in the tech industry.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;being-flexible-and-open-to-change&quot;&gt;Being Flexible and Open to Change&lt;&#x2F;h3&gt;
+&lt;p&gt;Finally, it&#x27;s important to stay flexible and open to change. The tech industry is constantly evolving, and what was relevant and cutting-edge one year may be outdated the next. By being open to new ideas and approaches, and being willing to adapt and evolve with the industry, you can ensure that you are always at the forefront of technological innovation.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Faced</title>
+		<published>2023-07-01T00:00:00+00:00</published>
+		<updated>2023-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://shikhar.vercel.app/faced/" type="text/html"/>
+		<id>https://shikhar.vercel.app/faced/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;face.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Face Recognition
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;creating-a-face-recognition-system-in-go&quot;&gt;Creating a Face Recognition System in Go&lt;&#x2F;h3&gt;
+&lt;p&gt;Go is a popular programming language that is known for its simplicity, efficiency, and concurrency support. In this blog, we will look at how to create a face recognition system using Go and the Kagami Go Face library.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;&#x2F;h3&gt;
+&lt;p&gt;Before we begin, there are a few prerequisites that you will need to have in order to follow along:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A basic understanding of Go programming&lt;&#x2F;li&gt;
+&lt;li&gt;A working installation of Go on your machine&lt;&#x2F;li&gt;
+&lt;li&gt;A webcam or other means of capturing video input&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;step-1-setting-up-kagami-go-face&quot;&gt;Step 1: Setting Up Kagami Go Face&lt;&#x2F;h3&gt;
+&lt;p&gt;Kagami Go Face is a Go library for facial recognition and detection. It is built on top of the popular OpenCV library, and provides a simple and easy-to-use interface for Go developers.&lt;&#x2F;p&gt;
+&lt;p&gt;To get started with Kagami Go Face, you will need to install it on your machine. The easiest way to do this is to use go get:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;go get -u github.com&#x2F;Kagami&#x2F;go-face&lt;&#x2F;code&gt;
+This will install Kagami Go Face and all of its dependencies. You can then import it into your Go code by adding the following line at the top of your file:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;import &amp;quot;github.com&#x2F;Kagami&#x2F;go-face&amp;quot;&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-2-capturing-video-input&quot;&gt;Step 2: Capturing Video Input&lt;&#x2F;h3&gt;
+&lt;p&gt;The first step in creating our face recognition system is to capture video input from the webcam. We can do this using the VideoCapture function from Kagami Go Face:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;webcam, err := face.NewWebcam()
+if err != nil {
+    fmt.Println(err)
+    return
+}
+defer webcam.Close()
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This will create a new Webcam object that is connected to the default webcam (which is usually device 0). We can then use this object to capture frames from the webcam and process them.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-3-detecting-faces&quot;&gt;Step 3: Detecting Faces&lt;&#x2F;h3&gt;
+&lt;p&gt;Next, we will use Kagami Go Face to detect faces in the video frames. Kagami Go Face provides a number of different algorithms for face detection, including Haar cascades and Deep Learning.&lt;&#x2F;p&gt;
+&lt;p&gt;For this example, we will use a Haar cascade:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;detector := face.NewCascadeDetector(&amp;quot;haarcascade_frontalface_default.xml&amp;quot;)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This will create a new CascadeDetector object and load the Haar cascade XML file. We can then use this object to detect faces in the video frames.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-4-recognizing-faces&quot;&gt;Step 4: Recognizing Faces&lt;&#x2F;h3&gt;
+&lt;p&gt;Once we have detected the faces in the video frames, we can use Kagami Go Face&#x27;s face recognition algorithms to recognize them. Kagami Go Face provides several different algorithms for face recognition, including Eigenfaces, Fisherfaces, and LBPH.&lt;&#x2F;p&gt;
+&lt;p&gt;For this example, we will use the LBPH algorithm:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;recognizer := face.NewLBPHRecognizer()
+defer recognizer.Close()
+
+&amp;#x2F;&amp;#x2F; Train the recognizer on a dataset of known faces
+if err := recognizer.Train(faceData, labels); err != nil {
+    fmt.Println(err)
+    return
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This will create a new LBPHRecognizer object and train it on a dataset of known faces. We can then use this object to recognize the faces in the video frames.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-5-displaying-results&quot;&gt;Step 5: Displaying Results&lt;&#x2F;h3&gt;
+&lt;p&gt;Finally, we will display the results of the face recognition on the screen. This can be done using the PutText function from Kagami Go Face:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;for {
+    frame, _ := webcam.Read()
+    if frame.Empty() {
+        continue
+    }
+
+    &amp;#x2F;&amp;#x2F; Detect and recognize faces in the frame
+    rects, names, _ := recognizer.Recognize(frame)
+    for i, r := range rects {
+        &amp;#x2F;&amp;#x2F; Display the name of the recognized face
+        gocv.PutText(&amp;amp;frame, names[i], image.Pt(r.Min.X, r.Min.Y-20), gocv.FontHersheyPlain, 1.2, color.RGBA{0, 0, 255, 0}, 2)
+        &amp;#x2F;&amp;#x2F; Draw a rectangle around the face
+        gocv.Rectangle(&amp;amp;frame, r, color.RGBA{0, 0, 255, 0}, 2)
+    }
+
+    &amp;#x2F;&amp;#x2F; Display the frame
+    window.IMShow(frame)
+    if window.WaitKey(1) &amp;gt;= 0 {
+        break
+    }
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This will loop through the detected and recognized faces, displaying the name of each face and drawing a rectangle around it. The resulting video stream will show the recognized faces in real-time.&lt;&#x2F;p&gt;
+&lt;p&gt;Conclusion
+Creating a face recognition system in Go with Kagami Go Face is a relatively simple and straightforward process. By following the steps outlined above, you can build a powerful and efficient face recognition system that can be used.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;shikharvashistha&#x2F;faced&quot;&gt;Kagami Go Face&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>GSoC - Google Summer of Code</title>
+		<published>2023-07-01T00:00:00+00:00</published>
+		<updated>2023-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://shikhar.vercel.app/gsoc/" type="text/html"/>
+		<id>https://shikhar.vercel.app/gsoc/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;gsoc.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Google Summer of Code (GSoC)
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;&lt;h2 id=&quot;what-is-google-summer-of-code&quot;&gt;What is Google Summer of Code?&lt;&#x2F;h2&gt;
+&lt;p&gt;Google Summer of Code (GSoC) is an annual program in which Google awards stipends to university students who contribute to open source projects during the summer. The program was first held in 2005 and has since become highly competitive, with thousands of students applying each year.&lt;&#x2F;p&gt;
+&lt;p&gt;Participating in GSoC can be a great opportunity for students to gain real-world experience working on open source projects, as well as to build their resumes and network with other professionals in the field. It can also be a great way for students to give back to the open source community and contribute to projects that they use and rely on.&lt;&#x2F;p&gt;
+&lt;p&gt;To participate in GSoC, students must first find a participating open source organization and submit a proposal outlining their project idea and plan. Proposals are then reviewed by the organization and, if accepted, the student is matched with a mentor who will guide them through the development process.&lt;&#x2F;p&gt;
+&lt;p&gt;Throughout the program, students are expected to make regular progress updates and participate in weekly mentor meetings. At the end of the summer, students are required to submit a final report and present their project to the community.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition to the stipend, GSoC students also receive support from Google in the form of guidance from their mentors, access to online resources and tools, and opportunities to attend events and conferences.&lt;&#x2F;p&gt;
+&lt;p&gt;Overall, participating in GSoC can be a rewarding and enriching experience for students who are interested in open source development. It can provide a unique opportunity to work on real-world projects, build their skills and knowledge, and make a meaningful contribution to the open source community.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Log Rotation</title>
+		<published>2023-07-01T00:00:00+00:00</published>
+		<updated>2023-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://shikhar.vercel.app/log-rotation/" type="text/html"/>
+		<id>https://shikhar.vercel.app/log-rotation/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;log.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Log Rotation
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;&lt;h2 id=&quot;log-rotation&quot;&gt;Log Rotation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h3&gt;
+&lt;p&gt;The log rotation project is a tool that is used to manage the size of log files on a system. It is an essential part of system maintenance, as large log files can impact the performance and stability of the system.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-it-works&quot;&gt;How It Works&lt;&#x2F;h3&gt;
+&lt;p&gt;The log rotation project works by periodically rotating the log files, which means that the current log file is closed and a new one is created in its place. The rotated log files are usually compressed to save space, and older log files are deleted to prevent the system from running out of storage.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;&#x2F;h3&gt;
+&lt;p&gt;The log rotation project can be configured to rotate log files at specific intervals or when they reach a certain size. This configuration can be done through a configuration file, which allows the user to specify the settings for the log rotation project.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;benefits&quot;&gt;Benefits&lt;&#x2F;h3&gt;
+&lt;p&gt;There are several benefits to using the log rotation project:&lt;&#x2F;p&gt;
+&lt;p&gt;It helps to keep log files from getting too large, which can impact the performance and stability of the system.&lt;&#x2F;p&gt;
+&lt;p&gt;It saves storage space by compressing rotated log files and deleting older ones.&lt;&#x2F;p&gt;
+&lt;p&gt;It makes it easier to manage log files and ensure that they are not taking up too much space on the system.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;Overall, the log rotation project is a valuable tool for system maintenance and ensuring that log files do not become a burden on the system. It is easy to configure and use, and can help to keep log files organized and under control.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;!-- project link --&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;syslog-ng&#x2F;syslog-ng&#x2F;pull&#x2F;4145&quot;&gt;Log Rotation Project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Matrix Vector Headers using Tensor</title>
+		<published>2023-07-01T00:00:00+00:00</published>
+		<updated>2023-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://shikhar.vercel.app/matrix-vector/" type="text/html"/>
+		<id>https://shikhar.vercel.app/matrix-vector/</id>
+		<content type="html">&lt;div class=&quot;cover-image&quot;&gt;
+  &lt;img src=&quot;mvt.png&quot;&#x2F;&gt;
+  &lt;p class=&quot;desc&quot;&gt;
+    Matrix Vector Headers using Tensor
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;&lt;h2 id=&quot;matrix-vector-headers-using-tensor&quot;&gt;Matrix Vector Headers using Tensor&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;what-is-google-summer-of-code&quot;&gt;What is Google Summer of Code?&lt;&#x2F;h2&gt;
+&lt;p&gt;Google Summer of Code (GSoC) is an annual program in which Google awards stipends to university students who contribute to open source projects during the summer. The program was first held in 2005 and has since become highly competitive, with thousands of students applying each year.&lt;&#x2F;p&gt;
+&lt;p&gt;Participating in GSoC can be a great opportunity for students to gain real-world experience working on open source projects, as well as to build their resumes and network with other professionals in the field. It can also be a great way for students to give back to the open source community and contribute to projects that they use and rely on.&lt;&#x2F;p&gt;
+&lt;p&gt;To participate in GSoC, students must first find a participating open source organization and submit a proposal outlining their project idea and plan. Proposals are then reviewed by the organization and, if accepted, the student is matched with a mentor who will guide them through the development process.&lt;&#x2F;p&gt;
+&lt;p&gt;Throughout the program, students are expected to make regular progress updates and participate in weekly mentor meetings. At the end of the summer, students are required to submit a final report and present their project to the community.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition to the stipend, GSoC students also receive support from Google in the form of guidance from their mentors, access to online resources and tools, and opportunities to attend events and conferences.&lt;&#x2F;p&gt;
+&lt;p&gt;Overall, participating in GSoC can be a rewarding and enriching experience for students who are interested in open source development. It can provide a unique opportunity to work on real-world projects, build their skills and knowledge, and make a meaningful contribution to the open source community.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;designing-a-matrix-vector-header-using-tensor-in-c&quot;&gt;Designing a Matrix Vector Header Using Tensor in C++&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the new features introduced in C++17 was the concept of a matrix and vector header, which provides a convenient way to create and manipulate matrices and vectors in C++. These headers are implemented using templates, which means that they can be used with any data type, including custom types. They are also efficient and fast, making them suitable for use in performance-critical applications.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition to matrix and vector headers, C++17 also introduced tensor headers, which provide a way to create and manipulate higher-dimensional arrays. These headers can be used in conjunction with matrix and vector headers to perform operations on multi-dimensional arrays of data.&lt;&#x2F;p&gt;
+&lt;p&gt;When designing a matrix vector header using tensor in C++, there are a few key considerations to keep in mind:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Data type: Make sure to choose a data type that is appropriate for the type of data you will be storing in the matrix or vector. For example, if you are working with floating point numbers, you may want to use float or double.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Memory management: Pay attention to how the matrix or vector is storing its data in memory. Make sure to use an efficient and space-saving approach, such as using a contiguous block of memory or a dynamic array.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Operations: Think about the types of operations you will need to perform on the matrix or vector, and design your header accordingly. For example, if you will be performing matrix multiplication, make sure to include a function for that operation.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;Designing a matrix vector header using tensor in C++ can be a challenging but rewarding task. By considering factors such as data type, memory management, and the types of operations you will need to perform, you can create a header that is efficient, flexible, and easy to use.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;!-- project link --&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;BoostGSoC21&#x2F;ublas&#x2F;wiki&quot;&gt;Matrix Vector Headers using Tensor&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
