@@ -1,5 +1,5 @@
 +++
-title = "GSoC and OSS"
+title = "GSoC - Google Summer of Code"
 description = "My experiences with Google Summer of Code and Open Source Software"
 date = 2023-07-01
 path="gsoc"
