@@ -1,5 +1,5 @@
 +++
-title = "Staying up to date with the current industry trends"
+title = "Technology Trends"
 description = "Staying up to date with the current industry trends"
 date = 2023-07-01
 path="current"
