@@ -17,7 +17,7 @@ metadata_image = "/face.png"
 Face Recognition
 {% end %}
 
-### Creating a Face Recognition System in Go
+### Face Recognition
 
 Go is a popular programming language that is known for its simplicity, efficiency, and concurrency support. In this blog, we will look at how to create a face recognition system using Go and the Kagami Go Face library.
 
@@ -28,7 +28,7 @@ Before we begin, there are a few prerequisites that you will need to have in ord
 - A working installation of Go on your machine
 - A webcam or other means of capturing video input
 
-### Step 1: Setting Up Kagami Go Face
+### Step 1: Setting Up
 Kagami Go Face is a Go library for facial recognition and detection. It is built on top of the popular OpenCV library, and provides a simple and easy-to-use interface for Go developers.
 
 To get started with Kagami Go Face, you will need to install it on your machine. The easiest way to do this is to use go get:
@@ -37,7 +37,7 @@ To get started with Kagami Go Face, you will need to install it on your machine.
 This will install Kagami Go Face and all of its dependencies. You can then import it into your Go code by adding the following line at the top of your file:
 
 ``` import "github.com/Kagami/go-face" ```
-### Step 2: Capturing Video Input
+### Step 2: Capturing Video
 The first step in creating our face recognition system is to capture video input from the webcam. We can do this using the VideoCapture function from Kagami Go Face:
 
 ```

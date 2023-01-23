@@ -17,7 +17,7 @@ metadata_image = "/gsoc.png"
 Google Summer of Code (GSoC)
 {% end %}
 
-## What is Google Summer of Code?
+## Google Summer of Code
 
 Google Summer of Code (GSoC) is an annual program in which Google awards stipends to university students who contribute to open source projects during the summer. The program was first held in 2005 and has since become highly competitive, with thousands of students applying each year.
 
